@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+<link rel="icon" href="https://www.igrejabatistadafamilia.com.br/wp-content/uploads/2020/10/cropped-M2-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.igrejabatistadafamilia.com.br/wp-content/uploads/2020/10/cropped-M2-180x180.jpg" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rodtti">
+    <meta name="description" content="Página de links dos Jovens da IBF (Igreja Batista da Família)">
+    <title>JOVENS IBF</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/avatar.png" alt="JovensIbf" />
+        <p><b>Ministério de Jovens IBF</b></p>
+      </div>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+      <ul>
+        <li>
+          <a href="https://instagram.com/jovensibfssa" target="_blank"
+            >Venha nos conhecer!</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/playlist?list=PLes8gS8wX9Ribwz6gJ5J1RJYiNCTdObHA"
+            target="_blank"
+            >Os 5 pilares da visão</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://docs.google.com/forms/d/1oNNeWQNT0xg4X00gFQR2Rx4cYzffjlimJSxoPL8Tg_I"
+            target="_blank"
+            >Fomulário de Inscrição</a
+          >
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1pfw19O_81s81GgCCxtwixJKOhjGJ1Xo5/view?usp=share_link" target="_blank"
+            >Calendário de encontros ♥</a
+          >
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://instagram.com/ibfsalvador" title="Instagram" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a
+          href="https://www.youtube.com/@IgrejaBatistadaFamiliaIBF" title="Youtube"
+          target="_blank"
+        >
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+      </div>
+      <div id="ibf">
+        <b>Igreja Batista da Família</b>
+      </div>
+      <footer></footer>
+    </div>
+<!--bloquear o botão direito </--> <script language=javascript> document.addEventListener('contextmenu', event => event.preventDefault()); </script>
+  <!--bloquear o ctrl+u </-->  <script>
+document.onkeydown = function(e) {
+    if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 ||    e.keyCode === 117 || e.keycode === 17 || e.keycode === 85)) {
+        alert('Desenvolvido por: @rodtti');
+    }
+    return false;
+};
+</script>
+    
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
